@@ -3,7 +3,7 @@
 Plugin Name: Kodeks Dashboard
 Plugin URI: http://kodeks.no
 Description: This plugin customizes the WordPress dashboard.
-Version: 1.0
+Version: 1.1
 Author: Thomas Johannessen
 Author URI: http://kodeks.no
 License: GPLv2
@@ -23,6 +23,8 @@ function remove_dashboard_meta() {
     remove_meta_box( 'dashboard_right_now', 'dashboard', 'normal' );
     remove_meta_box( 'dashboard_activity', 'dashboard', 'normal');//since 3.8
     remove_meta_box( 'jetpack_summary_widget', 'dashboard', 'normal' );
+    remove_meta_box( 'tribe_dashboard_widget', 'dashboard', 'normal' );
+    
 }
 add_action( 'admin_init', 'remove_dashboard_meta' );
 
