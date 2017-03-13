@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Kodeks Dashboard
-Plugin URI: http://kodeks.no
+GitHub Plugin URI: https://github.com/snaprud/Kodeks-Dashboard
 Description: This plugin customizes the WordPress dashboard.
 Version: 1.1
 Author: Thomas Johannessen
